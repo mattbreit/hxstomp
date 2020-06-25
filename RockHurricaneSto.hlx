@@ -1,0 +1,293 @@
+{
+ "data" : {
+  "device" : 2162694,
+  "device_version" : 40173568,
+  "meta" : {
+   "application" : "HX Edit",
+   "appversion" : 43122688,
+   "build_sha" : "d3a402a",
+   "modifieddate" : 1592192636,
+   "name" : "RockHurricaneSto"
+  },
+  "tone" : {
+   "controller" : {
+    "dsp0" : {
+     "block0" : {
+      "Drive" : {
+       "@controller" : 9,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     }
+    }
+   },
+   "dsp0" : {
+    "block0" : {
+     "@bypassvolume" : 1.0,
+     "@cab" : "cab0",
+     "@enabled" : true,
+     "@model" : "HD2_AmpLine62204Mod",
+     "@path" : 0,
+     "@position" : 0,
+     "@type" : 3,
+     "Bass" : 0.050,
+     "Bias" : 0.50,
+     "BiasX" : 0.50,
+     "ChVol" : 0.810,
+     "Drive" : 0.60,
+     "Master" : 0.70,
+     "Mid" : 0.0,
+     "PreMid" : 0.0,
+     "PreMidFc" : 500.0,
+     "Presence" : 0.570,
+     "Sag" : 0.50,
+     "Treble" : 0.860
+    },
+    "block1" : {
+     "@enabled" : true,
+     "@model" : "HD2_VolPanGain",
+     "@path" : 0,
+     "@position" : 1,
+     "@stereo" : false,
+     "@type" : 0,
+     "Gain" : 0.0
+    },
+    "block2" : {
+     "@enabled" : false,
+     "@model" : "HD2_DelayTransistorTape",
+     "@path" : 0,
+     "@position" : 3,
+     "@stereo" : true,
+     "@trails" : false,
+     "@type" : 7,
+     "Feedback" : 0.180,
+     "Headroom" : 0.0,
+     "Level" : 0.0,
+     "Mix" : 0.250,
+     "Scale" : 1.0,
+     "Spread" : 0.290,
+     "SyncSelect1" : 6,
+     "TempoSync1" : true,
+     "Time" : 0.5070,
+     "WowFlutter" : 0.360
+    },
+    "block3" : {
+     "@enabled" : true,
+     "@model" : "HD2_ReverbRoom",
+     "@path" : 0,
+     "@position" : 4,
+     "@trails" : false,
+     "@type" : 7,
+     "Decay" : 0.750,
+     "HighCut" : 3720.0,
+     "Level" : 0.0,
+     "LowCut" : 117.0,
+     "Mix" : 0.380,
+     "Predelay" : 0.020
+    },
+    "block4" : {
+     "@enabled" : true,
+     "@model" : "HD2_CompressorLAStudioComp",
+     "@path" : 0,
+     "@position" : 5,
+     "@stereo" : true,
+     "@type" : 0,
+     "Emphasis" : 0.090,
+     "Gain" : 0.50,
+     "Level" : 0.0,
+     "Mix" : 1.0,
+     "PeakReduction" : 0.550,
+     "Type" : false
+    },
+    "block5" : {
+     "@enabled" : true,
+     "@model" : "HD2_VolPanGain",
+     "@path" : 1,
+     "@position" : 2,
+     "@stereo" : false,
+     "@type" : 0,
+     "Gain" : -15.0
+    },
+    "cab0" : {
+     "@enabled" : true,
+     "@mic" : 0,
+     "@model" : "HD2_Cab4x12Greenback25",
+     "Distance" : 1.0,
+     "EarlyReflections" : 0.0,
+     "HighCut" : 10000.0,
+     "Level" : 0.0,
+     "LowCut" : 100.0
+    },
+    "inputA" : {
+     "@input" : 1,
+     "@model" : "HelixStomp_AppDSPFlowInput",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "inputB" : {
+     "@input" : 0,
+     "@model" : "HelixStomp_AppDSPFlowInput",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "join" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowJoin",
+     "@position" : 3,
+     "A Level" : 0.0,
+     "A Pan" : 0.50,
+     "B Level" : 0.0,
+     "B Pan" : 0.50,
+     "B Polarity" : false,
+     "Level" : 0.0
+    },
+    "outputA" : {
+     "@model" : "HelixStomp_AppDSPFlowOutputMain",
+     "@output" : 1,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "outputB" : {
+     "@model" : "HelixStomp_AppDSPFlowOutputSend",
+     "@output" : 0,
+     "Type" : true,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "split" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowSplitXOver",
+     "@position" : 1,
+     "Frequency" : 650.0,
+     "Reverse" : false,
+     "bypass" : false
+    }
+   },
+   "dsp1" : {},
+   "global" : {
+    "@DtSelect" : 2,
+    "@PowercabMode" : 0,
+    "@PowercabSelect" : 2,
+    "@PowercabVoicing" : 0,
+    "@current_snapshot" : 0,
+    "@cursor_dsp" : 0,
+    "@cursor_group" : "block2",
+    "@cursor_path" : 0,
+    "@cursor_position" : 3,
+    "@guitarinputZ" : 0,
+    "@model" : "@global_params",
+    "@pedalstate" : 2,
+    "@tempo" : 120.0,
+    "@topology0" : "SABJ",
+    "@topology1" : 0
+   },
+   "snapshot0" : {
+    "@ledcolor" : 0,
+    "@name" : "SNAPSHOT 1",
+    "@pedalstate" : 0,
+    "@tempo" : 120.0,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : false,
+      "block3" : true,
+      "block4" : true,
+      "block5" : true,
+      "split" : true
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.60
+       }
+      }
+     }
+    }
+   },
+   "snapshot1" : {
+    "@ledcolor" : 0,
+    "@name" : "SNAPSHOT 2",
+    "@pedalstate" : 0,
+    "@tempo" : 120.0,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : true,
+      "block3" : true,
+      "block4" : true,
+      "block5" : true,
+      "split" : true
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.730
+       }
+      }
+     }
+    }
+   },
+   "snapshot2" : {
+    "@ledcolor" : 0,
+    "@name" : "SNAPSHOT 3",
+    "@pedalstate" : 0,
+    "@tempo" : 120.0,
+    "@valid" : false,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : true,
+      "block3" : true,
+      "block4" : true,
+      "block5" : true,
+      "split" : true
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.60
+       }
+      }
+     }
+    }
+   },
+   "variax" : {
+    "@variax_customtuning" : true,
+    "@variax_lockctrls" : 0,
+    "@variax_magmode" : true,
+    "@variax_model" : 0,
+    "@variax_str1tuning" : 0,
+    "@variax_str2tuning" : 0,
+    "@variax_str3tuning" : 0,
+    "@variax_str4tuning" : 0,
+    "@variax_str5tuning" : 0,
+    "@variax_str6tuning" : 0,
+    "@variax_toneknob" : -0.10,
+    "@variax_volumeknob" : -0.10
+   }
+  }
+ },
+ "meta" : {
+  "original" : 0,
+  "pbn" : 0,
+  "premium" : 0
+ },
+ "schema" : "L6Preset",
+ "version" : 6
+}
